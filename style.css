@@ -1,0 +1,166 @@
+      * {
+        font-family: "figtree"
+      }
+
+      body {
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      .rightside {
+        /* margin-left: 200px; */
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .seedfilogo {
+        margin: 100px 0 0 0;
+      }
+
+      .account-container {
+        text-align: end;
+      }
+
+      .account {
+        font-size: 16px;
+        color: #1A201D;
+        margin: 32px 24px 0 0;
+      }
+
+      .sign-up-here {
+        color: #2a8851;
+        font-weight: bold;
+      }
+
+      .welcome-admin {
+        font-size: 24px;
+        color: #1A201D;
+        margin: 34px 0 0 0;
+      }
+
+      .forgot-password {
+        color: #2a8851;
+        font-size: 14px;
+        margin: 8px 0 0 0;
+      }
+      .admin {
+        font-weight: bold;
+      }
+
+      .enter-your-details {
+        color: #84868C;
+        font-size: 16px;
+        margin: 12px 0 0 0;
+      }
+
+      .email-address-label, .password-label {
+        color: #84868C;
+        font-size: 14px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 180px;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
+      .email-details, .password-details {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+      }
+
+      .email-input, .password-input {
+        margin: 0px;
+      }
+
+      .password-details {
+        margin: 20px 0 0 0;
+      }
+
+      .email-details {
+        margin: 31px 0 0 0;
+      }
+
+      .login-details {
+        text-align: end;
+      }
+      .your-go-to-credit {
+        color: #2a8851;
+        font-size: 50px;
+        font-weight: bold;
+        margin: 80px 0 0 0;
+      }
+
+      .get-seamless-access {
+        font-size: 24px;
+        color: #1A201D;
+        margin: 56px 0 0 0;
+      }
+
+      .leftside {
+        /* display: flex; */
+        flex-direction: column;
+        background-color: #d9ecd4;
+        /* flex-grow: 1; */
+        /* width: 100%; */
+        /* float: left; */
+      }
+
+      .image {
+        display: flex;
+        justify-content: end;
+      }
+
+      .left-text {
+        margin: 0 44px 0 139px;
+      }
+      .rightside {
+        flex-grow: 1;
+      }
+      input {
+        padding-left: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 79px;
+        border-radius: 8px;
+        background-color: #f4f6fa;
+        margin: 20px;
+      }
+
+    .email-input {
+      border: none;
+      margin: 4px 0 0 0;
+    }
+
+    .password-input{
+      border: none;
+      margin: 4px 0 0 0;
+    }
+
+      /* div.rightside p {
+        text-align: center;
+      }
+      div.leftside p {
+        text-align: center;
+      } */
+      button {
+        padding-left: 145.5px;
+        padding-right: 145.5px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 8px;
+        background-color: #2a8851;
+        margin: 56px 0 0 0;
+        color: #ffffff;
+        border: none;
+      }
+      /* div.leftside {
+        padding-bottom: 200px;
+      } */
