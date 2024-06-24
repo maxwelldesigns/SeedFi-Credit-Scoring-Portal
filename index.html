@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <form action="" class="form-container">
+        <div class="contact-us-container">
+          <h2 class="contact-us">Contact Us</h2>
+        </div>
+        <div class="first-and-last-name">
+          <div class="name-class">
+            <label for="first-name" class="first-name">First Name</label>
+            <br />
+            <input type="name" id="first-name" required />
+          </div>
+          <div class="name-class">
+            <label for="-last-name" class="last-name">Last Name</label>
+            <br />
+            <input type="name" id="last-name" required />
+          </div>
+        </div>
+        <div class="email-address-container">
+          <label for="email-address" class="email-address">Email Address</label>
+          <br />
+          <input type="email" id="email-address" required />
+        </div>
+        <div class="general-query">
+          <label for="query-type" class="query-label">Query type</label>
+          <div class="query-type">
+            <div class="query-type-container">
+              <input
+                id="general-enquiry"
+                type="radio"
+                name="general-enquiry/support-request"
+                required
+              />
+              <label for="general-enquiry" class="general-enquiry-label"
+                >General Enquiry</label
+              >
+            </div>
+            <div class="query-type-container">
+              <input
+                id="support-request"
+                type="radio"
+                name="general-enquiry/support-request"
+                required
+              />
+              <label for="support-request" class="support-request">
+                Support Request</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="message">
+          <label for="message-box" class="message-label">Message</label>
+          <br />
+          <textarea name="message-box" id="message-box" required></textarea>
+          <br />
+          <div class="consent">
+            <input type="checkbox" id="checkbox" required />
+            <label for="checkbox" class="consent-label"
+              >I consent to being contacted by the team</label
+            >
+          </div>
+        </div>
+        <div class="button-container"><button>Submit</button></div>
+      </form>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
+</html>
